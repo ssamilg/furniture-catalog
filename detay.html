@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Mobilya Katalog</title>
+    
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/images/logo.png" width="200" height="50" class="d-inline-block align-top" alt="" loading="lazy">
+      </a>    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Ana Sayfa <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="indirim.html">İndirimler</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="iletisim.html">İletişim</a>
+          </li>
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Site içi arama" aria-label="Search">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container-fluid content">
+      <div class="row pt-3 pl-3 content-headline">
+        <div class="col-md-11">
+          <h1>Loren Koltuk Takımı</h1>
+        </div>
+        <div class="col-md-1" style="display: flex;justify-content: flex-end;">
+          <a href="#" class="btn">
+            <i class="fas fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="row pt-2">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-12">
+              <div id="carousel-material" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/models/loren.jpg" style="width:100%;height:100%" alt="loren">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/models/loren-1.jpg" style="width:100%;height:100%" alt="loren">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/models/loren-2.jpg" style="width:100%;height:100%" alt="loren">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/models/loren-3.jpg" style="width:100%;height:100%" alt="loren">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/models/loren-4.jpg" style="width:100%;height:100%" alt="loren">
+                  </div>
+                </div>
+
+                <a class="carousel-control-prev" style="height: 85%;" href="#carousel-material" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" style="height: 85%;" href="#carousel-material" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-material" data-slide-to="0" class="active">
+                    <img src="assets/images/models/loren.jpg" style="width:80%;" alt="loren">
+                  </li>
+                  <li data-target="#carousel-material" data-slide-to="1">
+                    <img src="assets/images/models/loren-1.jpg" style="width:80%;" alt="loren">
+                  </li>
+                  <li data-target="#carousel-material" data-slide-to="2">
+                    <img src="assets/images/models/loren-2.jpg" style="width:80%;" alt="loren">
+                  </li>
+                  <li data-target="#carousel-material" data-slide-to="3">
+                    <img src="assets/images/models/loren-3.jpg" style="width:80%;" alt="loren">
+                  </li>
+                  <li data-target="#carousel-material" data-slide-to="4">
+                    <img src="assets/images/models/loren-4.jpg" style="width:80%;" alt="loren">
+                  </li>
+                </ol> 
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="row">
+            <h3>
+              <i class="fas fa-tags btn-outline-info"></i>
+              Fiyat
+            </h3>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <b>PEŞİN:</b>
+            </div>
+            <div class="col-md-1">
+              <p style="color:orangered;text-decoration: orangered solid line-through;">9.784,00</p>
+            </div>
+            <div class="col-md-1" style="color:forestgreen">
+              <p>8.045,00₺</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3">
+              <b>12 Ay Taksit ile:</b>
+            </div>
+            <div class="col-md-1">
+              <p style="color:orangered;text-decoration: orangered solid line-through;">8.790,00</p>
+            </div>
+            <div class="col-md-1" style="color:forestgreen">
+              <p">8.528,00₺</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <h3>
+              <i class="fas fa-info-circle btn-outline-info"></i>
+              Özellikler
+            </h3>
+            Loren Koltuk takımı modelimiz 3-3-B-B ve 3-2-B-B takım yapısı ile koleksiyonumuza dâhil edilmiştir.
+            Tüketicilerimiz odalarının genişliğine göre üçlü veya ikili koltuk ünitesi tercih edebileceklerdir.
+            <br>
+            Modern çizgilerin zarif detaylar ile birlikte yorumlandığı yeni modelimizin üçlü ve ikili koltuk 
+            ünitelerin sırt minderlerinin orta kısmında yarma tasarım kullanılmıştır.
+            <br>
+            Loren koltuk takımı modelimiz şık görselliğinin yanı sıra üçlü ve ikili koltuk ünitelerinde bulunan 
+            Zero Wall makas sistemine sahip yatak fonksiyonu ile de tercih sebebi olacaktır.
+            <br>
+            Loren koltuk takımında konsept uyumunu destekleyen kol detayında uygulanan modern formda ki el kapitone
+             dikiş uygulaması ve yüksek ayak kullanılarak şık bir görsellik sunulmuştur.
+            <br>
+            Loren üçlü koltuk ünitelerinde ana desen kumaş kırlent ve kombin kumaşa sahip ortopedi kırlenti de kullanılmıştır.
+            <br>
+            Loren koltuk takımı rahat ve ergonomik bir kullanım sunan modern yapıda berjer ile takımlaştırılmış olup, berjer 
+            oval hatlara sahip, dış arka kısmı deri döşeme olup, iç sırt kısmında kullanılan el kapitone uygulaması ile tasarımsal bütünlük sağlanmıştır.
+            <br>
+            Loren koltuk takımı ünitelerinin font kısmında 28 DNS soft sünger üzeri 24 DNS Soft sünger kullanılmış ve rahat bir oturum sağlanmıştır.
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 ml-5">
+        <div class="col-md-12">
+          <h3>
+            <i class="fas fa-ruler btn-outline-info"></i>
+            Ölçüler
+          </h3>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-12" style="display:flex; justify-content: center; overflow: auto;">
+          <img src="./assets/images/models/loren-detay.png" class="img-responsive" alt="detay">
+        </div>
+      </div>
+    </div>
+
+    <!-- Alt Slider -->
+    <div class="row mt-4 ml-5">
+      <div class="col-md-12">
+        <h3>
+          <i class="fas fa-couch btn-outline-info"></i>
+          Benzer Ürünler
+        </h3>
+      </div>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row pt-3 pb-3">
+            <div class="col-md-1"></div>
+            <div class="col-md-10" style="display: flex; justify-content: center;">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card content-card">
+                    <img src="assets/images/models/armony.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="row content-card-actions-slider">
+                        <h5 class="card-title"></h5>
+                        <a href="detay.html" class="btn content-card-btn">
+                          Armony Koltuk Takımı
+                          <i class="fas fa-arrow-circle-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-md-4">
+                  <div class="card content-card">
+                    <img src="assets/images/models/luxe.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="row content-card-actions-slider">
+                        <a href="detay.html" class="btn content-card-btn" style="background-color: #866C6F !important;">
+                          Luxe Koltuk Takımı
+                          <i class="fas fa-arrow-circle-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-md-4">
+                  <div class="card content-card">
+                    <img src="assets/images/models/oliver.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="row content-card-actions-slider">
+                        <a href="detay.html" class="btn content-card-btn" style="background-color: #5A6045 !important;">
+                          Oliver Koltuk Takımı
+                          <i class="fas fa-arrow-circle-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row pt-3 pb-3">
+            <div class="col-md-1"></div>
+            <div class="col-md-10" style="display: flex; justify-content: center;">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card content-card">
+                    <img src="assets/images/models/estilo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="row content-card-actions-slider">
+                        <a href="detay.html" class="btn content-card-btn" style="background-color: #526471 !important;">
+                          Estilo Koltuk Takımı
+                          <i class="fas fa-arrow-circle-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-md-4">
+                  <div class="card content-card">
+                    <img src="assets/images/models/canyon.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="row content-card-actions-slider">
+                        <a href="detay.html" class="btn content-card-btn" style="background-color: #866C6F !important;">
+                          Canyon Koltuk Takımı
+                          <i class="fas fa-arrow-circle-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-md-4">
+                  <div class="card content-card">
+                    <img src="assets/images/models/diego.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="row content-card-actions-slider">
+                        <a href="detay.html" class="btn content-card-btn" style="background-color: #5A6045 !important;">
+                          Diego Koltuk Takımı
+                          <i class="fas fa-arrow-circle-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <div class="row pt-3 pb-3">
+            <div class="col-md-1"></div>
+            <div class="col-md-10" style="display: flex; justify-content: center;">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card content-card">
+                    <img src="assets/images/models/gallery.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="row content-card-actions-slider">
+                        <a href="detay.html" class="btn content-card-btn" style="background-color: #526471 !important;">
+                          Gallery Koltuk Takımı
+                          <i class="fas fa-arrow-circle-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-md-6">
+                  <div class="card content-card">
+                    <img src="assets/images/models/soprano.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="row content-card-actions-slider">
+                        <a href="detay.html" class="btn content-card-btn" style="background-color: #866C6F !important;">
+                          Soprano Koltuk Takımı
+                          <i class="fas fa-arrow-circle-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <div class="detail-slider-btn">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </div>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <div class="detail-slider-btn">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </div>
+      </a>
+    </div>
+  <!-- Footer -->
+  <footer class="page-footer font-small">
+    <div class="container-fluid text-center pt-4 footer-general">
+      <div class="row pt-2">
+        <div class="col-md-3">
+          <p class="footer-headline">Mobilyam</p>
+          <p class="text-md-left"> 
+            1957 yılından bu yana, yılların tecrübesi ve 60 yıllık başarı hikayesi 
+            ile mobilya sektörünün lider kuruluşu olmayı başaran Mobilyam Mobilya, ürün çeşitliliği, tasarım farklılıkları, 
+            kalite anlayışı ve satış sonrası hizmetleri ile Türkiye'nin saygın markaları arasında yer alarak sektöre katma 
+            değer sağlamaya ve yeni açılımlar yaratmaya devam ediyor..
+          </p>
+        </div>
+
+        <div class="col-md-1"></div>
+
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-5">
+              <p class="footer-headline">Misyon</p>
+              <p class="text-md-left"> 
+                Misyonumuz, araştırma - geliştirme faaliyetlerimizle tüketicilerimizin 
+                farklı yaşam biçimlerine ve kullanım alışkanlıklarına uygun, dünya standartlarında,
+                insan ve çevre dostu ürünler oluşturmak ve üretmektir.
+              </p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+              <p class="footer-headline">Vizyon</p>
+              <p class="text-md-left"> 
+                Vizyonumuz, yenilik ve teknolojik gelişmeleri takip ederek ürün kalitesinde çıtayı 
+                sürekli yükseltmek, bir dünya markası olma yolunda emin adımlarla ilerlemek ve pazardaki
+                lider firma yapımızı korumaktır.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-1"></div>
+
+        <div class="col-md-2">
+          <p class="footer-headline">Site Haritası</p>
+          <ul class="list-unstyled footer-list text-md-left">
+            <li>
+              <i class="fas fa-home"></i>
+              <a class="footer-list-item" href="index.html">Anasayfa</a>
+            </li>
+            <li style="margin-top:8px !important">
+              <i class="fas fa-percent"></i>
+              <a class="footer-list-item" href="indirim.html">İndirimler</a>
+            </li>
+            <li style="margin-top:8px !important">
+              <i class="fas fa-address-card"></i>
+              <a class="footer-list-item" href="hakkimizda.html">Hakkımızda</a>
+            </li>
+            <li style="margin-top:8px !important">
+              <i class="fas fa-phone"></i>
+              <a class="footer-list-item" href="iletisim.html">İletişim</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="col-md-1"></div>
+      </div>
+      
+      <div class="row pt-2">
+        <div class="col-md-12">
+          <p>Her hakkı saklıdır. © 2020 Mobilyam</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+   <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="./assets/fontawesome/js/all.js"></script>
+  </body>
+</html>

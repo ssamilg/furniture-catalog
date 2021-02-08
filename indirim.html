@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Mobilya Katalog</title>
+    
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/images/logo.png" width="200" height="50" class="d-inline-block align-top" alt="" loading="lazy">
+      </a>    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Ana Sayfa <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="indirim.html">İndirimler</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="iletisim.html">İletişim</a>
+          </li>
+          <!-- TODO: ssamilg -->
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li> -->
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Site içi arama" aria-label="Search">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container-fluid content">
+      <div class="row pt-3 pl-3 content-headline">
+        <div class="col-md-11">
+          <h3>
+            <i class="fas fa-tags"></i>
+            İNDİRİMLER
+          </h3>
+        </div>
+        <div class="col-md-1" style="display: flex;justify-content: flex-end;">
+          <a href="#" class="btn">
+            <i class="fas fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="row pt-3">
+        <div class="col-md-4">
+          <div class="card discount-content-card">
+            <img src="assets/images/models/armony.jpg" class="card-img-top" style="opacity: .5;" alt="...">
+            <div class="card-img-overlay">
+              <div class="row">
+                <div class="col-md-3">
+                  <h1 class="card-title">
+                    <span class="badge badge-success">%25</span>
+                  </h1>
+                </div>
+                <div class="col-md-9" style="display: flex;flex-wrap: wrap;align-content:center;">
+                  <h3><b>Armony Koltuk Takımı</b></h3>
+                </div>
+              </div>
+              <div class="row" style="display: flex; justify-content: center;">
+                  <p class="normal-price">9.784,00</p>
+              </div>
+              <div class="row" style="display: flex; justify-content: center;">
+                  <p class="discount-price">7.340,00₺</p>
+              </div>
+              <div class="row content-card-actions">
+                <a href="detay.html" class="btn content-card-btn">
+                  İndirime Git
+                  <i class="fas fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card discount-content-card">
+            <img src="assets/images/models/luxe.jpg" class="card-img-top" style="opacity: .5;" alt="...">
+            <div class="card-img-overlay">
+              <div class="row">
+                <div class="col-md-3">
+                  <h1 class="card-title">
+                    <span class="badge badge-success">%20</span>
+                  </h1>
+                </div>
+                <div class="col-md-9" style="display: flex;flex-wrap: wrap;align-content:center;">
+                  <h3><b>Luxe Koltuk Takımı</b></h3>
+                </div>
+              </div>
+              <div class="row" style="display: flex; justify-content: center;">
+                  <p class="normal-price">13.356,00</p>
+              </div>
+              <div class="row" style="display: flex; justify-content: center;">
+                  <p class="discount-price">10.684,00₺</p>
+              </div>
+              <div class="row content-card-actions">
+                <a href="detay.html" class="btn content-card-btn" style="background-color: #866C6F !important;">
+                  İndirime Git
+                  <i class="fas fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card discount-content-card">
+            <img src="assets/images/models/oliver.jpg" class="card-img-top" style="opacity: .5;" alt="...">
+            <div class="card-img-overlay">
+              <div class="row">
+                <div class="col-md-3">
+                  <h1 class="card-title">
+                    <span class="badge badge-success">%35</span>
+                  </h1>
+                </div>
+                <div class="col-md-9" style="display: flex;flex-wrap: wrap;align-content:center;">
+                  <h3><b>Oliver Koltuk Takımı</b></h3>
+                </div>
+              </div>
+              <div class="row" style="display: flex; justify-content: center;">
+                  <p class="normal-price">13.356,00	</p>
+              </div>
+              <div class="row" style="display: flex; justify-content: center;">
+                  <p class="discount-price">8.680,00₺</p>
+              </div>
+              <div class="row content-card-actions">
+                <a href="detay.html" class="btn content-card-btn" style="background-color: #5A6045 !important;">
+                  İndirime Git
+                  <i class="fas fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row pt-5 pb-5">
+        <div class="col-md-4">
+          <div class="card discount-content-card">
+            <img src="assets/images/models/estilo.jpg" class="card-img-top" style="opacity: .5;" alt="...">
+            <div class="card-img-overlay">
+              <div class="row">
+                <div class="col-md-3">
+                  <h1 class="card-title">
+                    <span class="badge badge-success">%35</span>
+                  </h1>
+                </div>
+                <div class="col-md-9" style="display: flex;flex-wrap: wrap;align-content:center;">
+                  <h3><b>Estilo Koltuk Takımı</b></h3>
+                </div>
+              </div>
+              <div class="row" style="display: flex; justify-content: center;">
+                  <p class="normal-price">13.356,00	</p>
+              </div>
+              <div class="row" style="display: flex; justify-content: center;">
+                  <p class="discount-price">8.680,00₺</p>
+              </div>
+              <div class="row content-card-actions">
+                <a href="detay.html" class="btn content-card-btn" style="background-color: #526471 !important;">
+                  İndirime Git
+                  <i class="fas fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card discount-content-card">
+            <img src="assets/images/models/canyon.jpg" class="card-img-top" style="opacity: .5;" alt="...">
+            <div class="card-img-overlay">
+              <div class="row">
+                <div class="col-md-3">
+                  <h1 class="card-title">
+                    <span class="badge badge-success">%25</span>
+                  </h1>
+                </div>
+                <div class="col-md-9" style="display: flex;flex-wrap: wrap;align-content:center;">
+                  <h3><b>Canyon Koltuk Takımı</b></h3>
+                </div>
+              </div>
+              <div class="row" style="display: flex; justify-content: center;">
+                  <p class="normal-price">9.784,00</p>
+              </div>
+              <div class="row" style="display: flex; justify-content: center;">
+                  <p class="discount-price">7.340,00₺</p>
+              </div>
+              <div class="row content-card-actions">
+                <a href="detay.html" class="btn content-card-btn" style="background-color: #C2B9BC !important;">
+                  İndirime Git
+                  <i class="fas fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card discount-content-card">
+            <img src="assets/images/models/gallery.jpg" class="card-img-top" style="opacity: .5;" alt="...">
+            <div class="card-img-overlay">
+              <div class="row">
+                <div class="col-md-3">
+                  <h1 class="card-title">
+                    <span class="badge badge-success">%20</span>
+                  </h1>
+                </div>
+                <div class="col-md-9" style="display: flex;flex-wrap: wrap;align-content:center;">
+                  <h3><b>Gallery Koltuk Takımı</b></h3>
+                </div>
+              </div>
+              <div class="row" style="display: flex; justify-content: center;">
+                  <p class="normal-price">13.356,00</p>
+              </div>
+              <div class="row" style="display: flex; justify-content: center;">
+                  <p class="discount-price">10.684,00₺</p>
+              </div>
+              <div class="row content-card-actions">
+                <a href="detay.html" class="btn content-card-btn" style="background-color: #BE5969 !important;">
+                  İndirime Git
+                  <i class="fas fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small">
+    <div class="container-fluid text-center pt-4 footer-general">
+      <div class="row pt-2">
+        <div class="col-md-3">
+          <p class="footer-headline">Mobilyam</p>
+          <p class="text-md-left"> 
+            1957 yılından bu yana, yılların tecrübesi ve 60 yıllık başarı hikayesi 
+            ile mobilya sektörünün lider kuruluşu olmayı başaran Mobilyam Mobilya, ürün çeşitliliği, tasarım farklılıkları, 
+            kalite anlayışı ve satış sonrası hizmetleri ile Türkiye'nin saygın markaları arasında yer alarak sektöre katma 
+            değer sağlamaya ve yeni açılımlar yaratmaya devam ediyor..
+          </p>
+        </div>
+
+        <div class="col-md-1"></div>
+
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-5">
+              <p class="footer-headline">Misyon</p>
+              <p class="text-md-left"> 
+                Misyonumuz, araştırma - geliştirme faaliyetlerimizle tüketicilerimizin 
+                farklı yaşam biçimlerine ve kullanım alışkanlıklarına uygun, dünya standartlarında,
+                insan ve çevre dostu ürünler oluşturmak ve üretmektir.
+              </p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+              <p class="footer-headline">Vizyon</p>
+              <p class="text-md-left"> 
+                Vizyonumuz, yenilik ve teknolojik gelişmeleri takip ederek ürün kalitesinde çıtayı 
+                sürekli yükseltmek, bir dünya markası olma yolunda emin adımlarla ilerlemek ve pazardaki
+                lider firma yapımızı korumaktır.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-1"></div>
+
+        <div class="col-md-2">
+          <p class="footer-headline">Site Haritası</p>
+          <ul class="list-unstyled footer-list text-md-left">
+            <li>
+              <i class="fas fa-home"></i>
+              <a class="footer-list-item" href="index.html">Anasayfa</a>
+            </li>
+            <li style="margin-top:8px !important">
+              <i class="fas fa-percent"></i>
+              <a class="footer-list-item" href="indirim.html">İndirimler</a>
+            </li>
+            <li style="margin-top:8px !important">
+              <i class="fas fa-address-card"></i>
+              <a class="footer-list-item" href="hakkimizda.html">Hakkımızda</a>
+            </li>
+            <li style="margin-top:8px !important">
+              <i class="fas fa-phone"></i>
+              <a class="footer-list-item" href="iletisim.html">İletişim</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="col-md-1"></div>
+      </div>
+      
+      <div class="row pt-2">
+        <div class="col-md-12">
+          <p>Her hakkı saklıdır. © 2020 Mobilyam</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+   <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="./assets/fontawesome/js/all.js"></script>
+  </body>
+</html>
